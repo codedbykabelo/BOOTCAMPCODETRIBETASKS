@@ -5,154 +5,137 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body bgcolor="lightblue">
+<body>
+
     <header>
-        <table width="100%">
-            <tr>
-                <td><img src="images/logo.png" alt="Logo" width="250" height="150"></td>
 
-                <td align="right">
+        <div class="navbar">
 
-                    <a href="#home">Home</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#about">About Me</a>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <a href="#contact">Contact Us</a>
+            <img src="images/logo.png" alt="Logo" class="logo">
 
+            <nav>
 
-                </td>
-            </tr>
-        </table>
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#contact">Contact Us</a>
+
+            </nav>
+
+        </div>
 
     </header>
 
     <section id="home">
-        <img src="images/profile.jpeg" alt="Profile Picture" width="400" height="600">
+
+        <img src="images/profile.jpeg" alt="Profile Picture" class="main-image">
+
     </section>
+
     <section id="about">
 
-        <article>
+        <div class="about-container">
 
-            <table width="100%">
+            <div class="about-text">
 
-                <tr>
+                <h2>Kabelo Masha</h2>
 
+                <p>
+                    I am a final-year Computer Science student
+                    at Tshwane University of Technology (TUT)
+                    with a strong passion for web development,
+                    software development, and technology innovation.
+                </p>
 
-                    <td>
+                <p>
+                    I collaborated in the development of the
+                    Safeguard SA web application and achieved
+                    third place twice in the LVH competition.
+                </p>
 
-                        <h2>Kabelo Masha</h2>
+                <p>
+                    I enjoy learning new technologies and building
+                    impactful digital solutions.
+                </p>
 
-                        <p>
-                            I am a final-year Computer Science student
-                            at Tshwane University of Technology (TUT)
-                            with a strong passion for web development,
-                            software development, and technology innovation.
-                        </p>
+            </div>
 
-                        <p>
-                            I collaborated in the development of the
-                            Safeguard SA web application and achieved
-                            third place twice in the LVH competition.
-                        </p>
+            <div>
 
-                        <p>
-                            I enjoy learning new technologies and building
-                            impactful digital solutions.
-                        </p>
+                <img src="images/myPicture.jpeg" alt="Profile Picture" class="about-image">
 
-                    </td>
+            </div>
 
-
-                    <td align="right">
-
-                        <img src="images/myPicture.jpeg" alt="Profile Picture" width="200" height="300">
-
-                    </td>
-
-                </tr>
-
-            </table>
-
-        </article>
+        </div>
 
     </section>
+
     <footer>
 
         <section id="contact">
 
-            <table width="100%">
+            <div class="contact-container">
 
-                <tr>
+                <div>
 
+                    <h3>Address</h3>
 
-                    <td>
+                    <p>
+                        209 Hillary Drive<br>
+                        Bendor<br>
+                        Polokwane<br>
+                        Limpopo<br>
+                        South Africa
+                    </p>
 
-                        <h3>Address</h3>
+                </div>
 
-                        <p>
-                            209 Hillary Drive<br>
-                            Bendor<br>
-                            Polokwane<br>
-                            Limpopo<br>
-                            South Africa
-                        </p>
+                <div>
 
-                    </td>
+                    <h3>Quick Links</h3>
 
+                    <a href="#home">Home</a><br>
+                    <a href="#about">About Me</a><br>
+                    <a href="#contact">Contact Us</a>
 
-                    <td>
+                </div>
 
-                        <h3>Quick Links</h3>
+                <div>
 
-                        <a href="#home">Home</a>
-                        <a href="#about">About Me</a>
-                        <a href="#contact">Contact Us</a>
+                    <iframe
+                        src="https://www.google.com/maps?q=209+Hillary+Drive+Bendor+Polokwane+Limpopo+South+Africa&output=embed">
+                    </iframe>
 
-                    </td>
+                </div>
 
-
-                    <td align="right">
-
-                        <iframe
-                            src="https://www.google.com/maps?q=209+Hillary+Drive+Bendor+Polokwane+Limpopo+South+Africa&output=embed"
-                            width="300" height="200">
-                        </iframe>
-
-                    </td>
-
-                </tr>
-
-            </table>
+            </div>
 
             <br>
 
             <p>
+                Facebook:
+                <a href="https://facebook.com/">Masha Kabelo</a>
 
-    Facebook:
-    <a href="https://facebook.com/">Masha Kabelo</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
 
-    &nbsp;&nbsp;&nbsp;&nbsp;
+                Instagram:
+                <a href="https://instagram.com/masha_confidence">
+                    @masha_confidence
+                </a>
+            </p>
 
-    Instagram:
-    <a href="https://instagram.com/masha_confidence">
-        @masha_confidence
-    </a>
+            <p>Email: mkabeloconfudance3@gmail.com</p>
 
-</p>
-
-<p>Email: mkabeloconfudance3@gmail.com</p>
-
-<p>Phone: 076 174 2929</p>
+            <p>Phone: 076 174 2929</p>
 
             <p>&copy; 2026 Kabelo Masha. All rights reserved.</p>
 
         </section>
+
     </footer>
-
-
-
 
 </body>
 
